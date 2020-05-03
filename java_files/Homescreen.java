@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 public class Homescreen extends Fragment {
-
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -22,6 +21,8 @@ public class Homescreen extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        
+        MainActivity.home = view.findViewById(R.id.going_out_button);
 
         view.findViewById(R.id.going_out_button).setOnClickListener(new View.OnClickListener() {
             @Override

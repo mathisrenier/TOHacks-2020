@@ -1,4 +1,7 @@
 # TOHacks-2020
+
+[Watch the video demo.](https://youtu.be/98AEFQxhBYY)
+
 ## Inspiration
 The inspiration for our project came from a desire to improve people’s safety in this time of hardship, where even the simple act of going grocery shopping puts the lives of those closest to you (literally close to you) at risk. By adding both a social and competitive aspect to the task of staying indoors our goal was to replace the in-person social activity with an entertaining alternative.
 

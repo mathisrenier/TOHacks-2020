@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //radar initialization
-        Radar.initialize(this, "prj_test_pk_2ff6a35629ab2b24d0d97e55ba35142982a45a0e");
+        Radar.initialize(this, "insert_key_here");
         ActivityCompat.requestPermissions(this, new String[] { Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_BACKGROUND_LOCATION }, 123);
         //start background tracking
         Radar.startTracking(RadarTrackingOptions.CONTINUOUS);
